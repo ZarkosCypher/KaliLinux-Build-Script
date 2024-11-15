@@ -50,11 +50,14 @@ sudo ./pimpmykali.sh
 -While running there have been Python issues so this was my fix for some Python issues:
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1 
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.(newest version of python) 2
+
 -to find the newest version do:
 sudo apt install python3 
+
 -and make sure it says the version you need EX: 3.# and not the other ones
 -to switch the type of Python version your using do:
 sudo update-alternatives --config python
+
 
 -after doing an upgrade on pimp my kali using option 9 and also do "fix" using option 0 
 
