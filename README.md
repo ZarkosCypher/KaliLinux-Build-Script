@@ -74,3 +74,26 @@ ran ./pimpmykali.sh and did option W
 -install PlumHound 
 
 -download cracmapexec and after its run a few times it will add some things to the cmedb database like passwords and other things
+
+
+
+
+-Proxychains Setup
+-download tor 
+sudo apt install tor -y
+
+sudo systemctl enable tor 
+sudo systemctl start tor 
+sudo systemctl status tor 
+
+-change proxychains defult of static to dynamic 
+mousepad /etc/proxychains4.conf
+
+-verify it works
+proxychains firefox check.torproject.org
+
+
+
+
+
+
