@@ -97,7 +97,7 @@ proxychains firefox check.torproject.org
 
 
 
-Wireless Pentest
+-Wireless Pentest
 sudo apt install hcxdumptool
 sudo apt install hcxtools
 
