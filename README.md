@@ -89,6 +89,8 @@ sudo systemctl enable tor
 sudo systemctl start tor 
 sudo systemctl status tor 
 
+sudo apt install tor torbrowser-launcher
+
 -change proxychains defult of static to dynamic 
 mousepad /etc/proxychains4.conf
 
