@@ -16,6 +16,8 @@ sudo apt install fcrackzip
 cd /usr/share/wordlists 
 extracted rockyou.txt.gz file in /usr/share/wordlists to the same directory and kept both the .gz and .txt 
 
+-Download usefull wordlists 
+sudo apt install seclists
 
 -Download Firefox Extensions
 wapalizer
