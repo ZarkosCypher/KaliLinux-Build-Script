@@ -1,4 +1,5 @@
 # KaliLinux-Build-Script-(will fix and make eventualy)
+# Raw is the best way to read this for now!
 
 -New Kali Install RUN:
 sudo apt update 
