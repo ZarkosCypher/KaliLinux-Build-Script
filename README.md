@@ -3,6 +3,7 @@
 
 -New Kali Install RUN:
 sudo apt update 
+*if kali is really out of date run: sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg
 sudo apt upgrade
 sudo apt autoremove 
 sudo apt clean
