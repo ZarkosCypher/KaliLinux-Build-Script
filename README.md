@@ -27,6 +27,7 @@ wapalizer
 foxyproxy
 Firefox Multi-Account Containers
 Cookie-Editor         by cgagnier
+Ublock Origin 
 
 -Turn burpsuit dark mode:
 Go to burpsuit setting and search dark then turn on dark mode and save
