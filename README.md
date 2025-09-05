@@ -1,6 +1,6 @@
 # KaliLinux-Build-Script-(will fix and make eventualy)
 # Raw is the best way to read this for now!
-<p1>
+
 -New Kali Install RUN:
 sudo apt update 
 *if kali is really out of date run: sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg
@@ -127,5 +127,5 @@ proxychains firefox check.torproject.org
 sudo apt install hcxdumptool
 sudo apt install hcxtools
 
-</p1>
+
 
