@@ -55,41 +55,41 @@ type: HTTP
 
 Download pimp my kali:
 -Remove existing pimpmykali folder
-rm -rf pimpmykali/
+``` rm -rf pimpmykali/ ```
 
 -Clone pimpmykali repository & enter the folder
-git clone https://github.com/Dewalt-arch/pimpmykali
-cd pimpmykali
+``` git clone https://github.com/Dewalt-arch/pimpmykali ```
+``` cd pimpmykali ```
 
 -Execute the script - For a new Kali VM, run menu option 'N'
-sudo ./pimpmykali.sh
+``` sudo ./pimpmykali.sh ```
 
 
 -While running there have been Python issues so this was my fix for some Python issues:
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1 
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.(newest version of python) 2
+``` sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1 ```
+``` sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.(newest version of python) 2 ```
 
 -to find the newest version do:
-sudo apt install python3 
+``` sudo apt install python3 ```
 
 -and make sure it says the version you need EX: 3.# and not the other ones
 -to switch the type of Python version your using do:
-sudo update-alternatives --config python
+``` sudo update-alternatives --config python ```
 
 
 -after doing an upgrade on pimp my kali using option 9 and also do "fix" using option 0 
 
 -install asset finder by running 
-go install GitHub.com/tomnomnom/assetfinder@latest
+``` go install GitHub.com/tomnomnom/assetfinder@latest ```
 
 -install amass 
-go install -v GitHub.com/owasp-amass/amass/v4/...@master
+``` go install -v GitHub.com/owasp-amass/amass/v4/...@master ```
 
 -install httprobe 
-go install GitHub.tomnomnom/httprobe@latest
+``` go install GitHub.tomnomnom/httprobe@latest ```
 
 -install GoWitness 
-ran ./pimpmykali.sh and did option W
+ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 
 -download bloodhound and nro4j with username neo4j and password neo4j1
 -install PlumHound 
