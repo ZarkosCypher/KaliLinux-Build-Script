@@ -101,13 +101,13 @@ ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 
 -Proxychains Setup
 -download tor 
-sudo apt install tor -y
+``` sudo apt install tor -y ```
 
-sudo systemctl enable tor 
-sudo systemctl start tor 
-sudo systemctl status tor 
+``` sudo systemctl enable tor ```
+``` sudo systemctl start tor ```
+``` sudo systemctl status tor ```
 
-sudo apt install tor torbrowser-launcher
+``` sudo apt install tor torbrowser-launcher ```
 
 -change proxychains defult of static to dynamic 
 mousepad /etc/proxychains4.conf
@@ -123,13 +123,13 @@ mousepad /etc/proxychains4.conf
   everything else should have a # infront of it
 
 -verify it works
-proxychains firefox check.torproject.org
+``` proxychains firefox check.torproject.org ```
 
 
 
 -Wireless Pentest
-sudo apt install hcxdumptool
-sudo apt install hcxtools
+``` sudo apt install hcxdumptool ```
+``` sudo apt install hcxtools ```
 
 
 
