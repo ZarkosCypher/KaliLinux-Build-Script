@@ -2,12 +2,12 @@
 # Raw is the best way to read this for now!
 
 -New Kali Install RUN:
-``` sudo apt update ```
+- ``` sudo apt update ```
 *if kali is really out of date run: ``` sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg ```
-``` sudo apt upgrade ```
-``` sudo apt full-upgrade ```
-``` sudo apt autoremove ```
-``` sudo apt clean ```
+- ``` sudo apt upgrade ```
+- ``` sudo apt full-upgrade ```
+- ``` sudo apt autoremove ```
+- ``` sudo apt clean ```
 
 -Change your defult password:
 - ``` passwd ```
@@ -22,8 +22,8 @@
 extracted rockyou.txt.gz file in /usr/share/wordlists to the same directory and kept both the .gz and .txt 
 
 -Programs that may be useful on pentests:
-``` sudo apt install keepassxc ```
-``` sudo apt install fcrackzip ```
+- ``` sudo apt install keepassxc ```
+- ``` sudo apt install fcrackzip ```
 
 -Download Firefox Extensions
 wapalizer
@@ -39,10 +39,10 @@ go to github page and go to the releases, choose the latest vertion, download tr
 if trying to use on password and username replace them with %s and %s for the username and password in the raw request, then choose the examples/muktipleParameters.py and change the first word and second word directory with what file you want to use for the bruitforce. then when ready hit attack at the bottom!
 
 -instal OWASP ZAP
-``` sudo apt install zaproxy ```
+- ``` sudo apt install zaproxy ```
 
 -install gobuster (was removed from defult kali linux)
-``` sudo apt install gobuster ```
+- ``` sudo apt install gobuster ```
 
 -Add foxy proxy settings
 title: BurpSuit
@@ -55,38 +55,38 @@ type: HTTP
 
 Download pimp my kali:
 -Remove existing pimpmykali folder
-``` rm -rf pimpmykali/ ```
+- ``` rm -rf pimpmykali/ ```
 
 -Clone pimpmykali repository & enter the folder
-``` git clone https://github.com/Dewalt-arch/pimpmykali ```
-``` cd pimpmykali ```
+- ``` git clone https://github.com/Dewalt-arch/pimpmykali ```
+- ``` cd pimpmykali ```
 
 -Execute the script - For a new Kali VM, run menu option 'N'
-``` sudo ./pimpmykali.sh ```
+- ``` sudo ./pimpmykali.sh ```
 
 
 -While running there have been Python issues so this was my fix for some Python issues:
-``` sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1 ```
-``` sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.(newest version of python) 2 ```
+- ``` sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1 ```
+- ``` sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.(newest version of python) 2 ```
 
 -to find the newest version do:
-``` sudo apt install python3 ```
+- ``` sudo apt install python3 ```
 
 -and make sure it says the version you need EX: 3.# and not the other ones
 -to switch the type of Python version your using do:
-``` sudo update-alternatives --config python ```
+- ``` sudo update-alternatives --config python ```
 
 
 -after doing an upgrade on pimp my kali using option 9 and also do "fix" using option 0 
 
 -install asset finder by running 
-``` go install GitHub.com/tomnomnom/assetfinder@latest ```
+- ``` go install GitHub.com/tomnomnom/assetfinder@latest ```
 
 -install amass 
-``` go install -v GitHub.com/owasp-amass/amass/v4/...@master ```
+- ``` go install -v GitHub.com/owasp-amass/amass/v4/...@master ```
 
 -install httprobe 
-``` go install GitHub.tomnomnom/httprobe@latest ```
+- ``` go install GitHub.tomnomnom/httprobe@latest ```
 
 -install GoWitness 
 ran ``` ./pimpmykali.sh ``` and did option ``` W ```
@@ -101,13 +101,13 @@ ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 
 -Proxychains Setup
 -download tor 
-``` sudo apt install tor -y ```
+- ``` sudo apt install tor -y ```
 
-``` sudo systemctl enable tor ```
-``` sudo systemctl start tor ```
-``` sudo systemctl status tor ```
+- ``` sudo systemctl enable tor ```
+- ``` sudo systemctl start tor ```
+- ``` sudo systemctl status tor ```
 
-``` sudo apt install tor torbrowser-launcher ```
+- ``` sudo apt install tor torbrowser-launcher ```
 
 -change proxychains defult of static to dynamic 
 mousepad /etc/proxychains4.conf
@@ -123,13 +123,13 @@ mousepad /etc/proxychains4.conf
   everything else should have a # infront of it
 
 -verify it works
-``` proxychains firefox check.torproject.org ```
+- ``` proxychains firefox check.torproject.org ```
 
 
 
 -Wireless Pentest
-``` sudo apt install hcxdumptool ```
-``` sudo apt install hcxtools ```
+- ``` sudo apt install hcxdumptool ```
+- ``` sudo apt install hcxtools ```
 
 
 
