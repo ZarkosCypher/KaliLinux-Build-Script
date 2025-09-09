@@ -4,26 +4,26 @@
 -New Kali Install RUN:
 ``` sudo apt update ```
 *if kali is really out of date run: ``` sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg ```
-``` sudo apt upgrade
-sudo apt full-upgrade
-sudo apt autoremove 
-sudo apt clean ```
+``` sudo apt upgrade ```
+``` sudo apt full-upgrade ```
+``` sudo apt autoremove ```
+``` sudo apt clean ```
 
 -Change your defult password:
-passwd
+``` passwd ```
 
 -Download all wallpapers for Kali:
-sudo apt install kali-wallpapers-all
+``` sudo apt install kali-wallpapers-all ```
 
 -Wordlists that may be useful on pentests:
-cd /usr/share/wordlists 
-sudo apt install seclists
-cd /usr/share/wordlists 
+``` cd /usr/share/wordlists ```
+``` sudo apt install seclists ```
+``` cd /usr/share/wordlists ```
 extracted rockyou.txt.gz file in /usr/share/wordlists to the same directory and kept both the .gz and .txt 
 
 -Programs that may be useful on pentests:
-sudo apt install keepassxc
-sudo apt install fcrackzip
+``` sudo apt install keepassxc ```
+``` sudo apt install fcrackzip ```
 
 -Download Firefox Extensions
 wapalizer
@@ -39,10 +39,10 @@ go to github page and go to the releases, choose the latest vertion, download tr
 if trying to use on password and username replace them with %s and %s for the username and password in the raw request, then choose the examples/muktipleParameters.py and change the first word and second word directory with what file you want to use for the bruitforce. then when ready hit attack at the bottom!
 
 -instal OWASP ZAP
-sudo apt install zaproxy
+``` sudo apt install zaproxy ```
 
 -install gobuster (was removed from defult kali linux)
-sudo apt install gobuster
+``` sudo apt install gobuster 
 
 -Add foxy proxy settings
 title: BurpSuit
