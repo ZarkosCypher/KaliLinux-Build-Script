@@ -42,7 +42,7 @@ if trying to use on password and username replace them with %s and %s for the us
 ``` sudo apt install zaproxy ```
 
 -install gobuster (was removed from defult kali linux)
-``` sudo apt install gobuster 
+``` sudo apt install gobuster ```
 
 -Add foxy proxy settings
 title: BurpSuit
