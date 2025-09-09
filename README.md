@@ -9,6 +9,9 @@ sudo apt full-upgrade
 sudo apt autoremove 
 sudo apt clean
 
+-Change your defult password:
+passwd
+
 -Download all wallpapers for Kali:
 sudo apt install kali-wallpapers-all
 
