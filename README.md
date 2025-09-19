@@ -1,21 +1,25 @@
 # KaliLinux-Build-Script-(will fix and make eventualy)
 # Raw is the best way to read this for now!
 
--New Kali Install RUN:
+# New Kali Install RUN:
+This will pull updates for kali
 ```bash 
 sudo apt update
 ```
 
-*if kali is really out of date run: ``` sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg ```
+*If kali is really out of date and your getting a keyring error run: ``` sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg ```
+This will actually upgrade all the things that the update command pulled the new versions for 
 ```bash
 sudo apt upgrade 
 ```
 ```bash 
 sudo apt full-upgrade
 ```
+This will remove the old packages and free up some space 
 ```bash 
 sudo apt autoremove
 ```
+This will clear the cach 
 ```bash 
 sudo apt clean
 ```
