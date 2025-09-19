@@ -131,18 +131,18 @@ ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 ```bash 
 mousepad /etc/proxychains4.conf
 ```
-<p>
-  remove # from dynamic_chain
-  remove # from proxy_dns
-  remove # from remote_dns_subnet 224
-  remove # from tcp_read_time_out 15000
-  remove # from tcp_connect_time_out 8000
-  remove # from [ProxyList]
-  add at the bottom under # defaults set to "tor"
-    socks4 127.0.0.1 950
-    socks5 127.0.0.1 950
-  everything else should have a # infront of it
-</p>
+
+-  remove # from dynamic_chain
+-  remove # from proxy_dns
+-  remove # from remote_dns_subnet 224
+-  remove # from tcp_read_time_out 15000
+-  remove # from tcp_connect_time_out 8000
+-  remove # from [ProxyList]
+-  add at the bottom under # defaults set to "tor"
+-    socks4 127.0.0.1 950
+-    socks5 127.0.0.1 950
+-  everything else should have a # infront of it
+
 
 -verify it works
 - ``` proxychains firefox check.torproject.org ```
