@@ -140,11 +140,12 @@ mousepad /etc/proxychains4.conf
 ```bash
 git clone https://github.com/SecureAuthCorp/impacket.git 
 cd impacket
-pip3 install . 
+
+sudo python3 setup.py install
 
 #OR:
 
-sudo python3 setup.py install
+pip3 install . 
 ```
 
 -In case you are missing some modules:
