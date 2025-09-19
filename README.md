@@ -25,16 +25,20 @@ sudo apt clean
 ```
 
 -Change your defult password:
-- ``` passwd ```
+``` bash
+passwd
+```
 
 -Download all wallpapers for Kali:
-- ``` sudo apt install kali-wallpapers-all ```
+``` bash 
+sudo apt install kali-wallpapers-all
+```
 
 -Wordlists that may be useful on pentests:
 - ``` cd /usr/share/wordlists ```
 - ``` sudo apt install seclists ```
 - ``` cd /usr/share/wordlists ```
-extracted rockyou.txt.gz file in /usr/share/wordlists to the same directory and kept both the .gz and .txt 
+extract rockyou.txt.gz file in /usr/share/wordlists to the same directory and kept both the .gz and .txt 
 
 -Programs that may be useful on pentests:
 - ``` sudo apt install keepassxc ```
