@@ -1,5 +1,4 @@
 # KaliLinux-Build-Script-(will fix and make eventualy)
-# Raw is the best way to read this for now!
 
 # New Kali Install RUN:
 This will pull updates for kali
@@ -129,7 +128,9 @@ ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 - ``` sudo apt install tor torbrowser-launcher ```
 
 -change proxychains defult of static to dynamic 
+```bash 
 mousepad /etc/proxychains4.conf
+```
   remove # from dynamic_chain
   remove # from proxy_dns
   remove # from remote_dns_subnet 224
