@@ -145,9 +145,11 @@ pip3 install .
 #OR:
 
 sudo python3 setup.py install
+```
 
-#In case you are missing some modules:
+-In case you are missing some modules:
 
+```bash
 pip3 install -r requirements.txt
 ```
 
