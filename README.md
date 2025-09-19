@@ -5,7 +5,6 @@ This will pull updates for kali
 ```bash 
 sudo apt update
 ```
-
 *If kali is really out of date and your getting a keyring error run: ``` sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg ```
 This will actually upgrade all the things that the update command pulled the new versions for 
 ```bash
@@ -22,12 +21,10 @@ This will clear the cach
 ```bash 
 sudo apt clean
 ```
-
 -Change your defult password:
 ``` bash
 passwd
 ```
-
 -Download all wallpapers for Kali:
 ``` bash 
 sudo apt install kali-wallpapers-all
@@ -57,10 +54,14 @@ go to github page and go to the releases, choose the latest vertion, download tr
 if trying to use on password and username replace them with %s and %s for the username and password in the raw request, then choose the examples/muktipleParameters.py and change the first word and second word directory with what file you want to use for the bruitforce. then when ready hit attack at the bottom!
 
 -instal OWASP ZAP
-- ``` sudo apt install zaproxy ```
+```bash 
+sudo apt install zaproxy
+```
 
 -install gobuster (was removed from defult kali linux)
-- ``` sudo apt install gobuster ```
+```bash 
+sudo apt install gobuster
+```
 
 -Add foxy proxy settings
 title: BurpSuit
@@ -131,7 +132,6 @@ ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 ```bash 
 mousepad /etc/proxychains4.conf
 ```
-
 -  remove # from dynamic_chain
 -  remove # from proxy_dns
 -  remove # from remote_dns_subnet 224
@@ -143,23 +143,20 @@ mousepad /etc/proxychains4.conf
 -    socks5 127.0.0.1 950
 -  everything else should have a # infront of it
 
-
 -verify it works
 - ``` proxychains firefox check.torproject.org ```
 
+
+---
 
 
 -Wireless Pentest
 - ``` sudo apt install hcxdumptool ```
 - ``` sudo apt install hcxtools ```
 
-
-
-
 ---
 
 -Python scripts for interacting with services and network protocols 
-
 ```bash
 git clone https://github.com/SecureAuthCorp/impacket.git 
 cd impacket
@@ -170,13 +167,10 @@ sudo python3 setup.py install
 
 pip3 install . 
 ```
-
 -In case you are missing some modules:
-
 ```bash
 pip3 install -r requirements.txt
 ```
-
 ```bash
 #Note: In case you don't have pip3 (pip for Python3) installed, or Python3, install it with the following commands:
 
