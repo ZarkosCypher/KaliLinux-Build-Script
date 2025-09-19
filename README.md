@@ -131,6 +131,7 @@ ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 ```bash 
 mousepad /etc/proxychains4.conf
 ```
+<p>
   remove # from dynamic_chain
   remove # from proxy_dns
   remove # from remote_dns_subnet 224
@@ -141,6 +142,7 @@ mousepad /etc/proxychains4.conf
     socks4 127.0.0.1 950
     socks5 127.0.0.1 950
   everything else should have a # infront of it
+</p>
 
 -verify it works
 - ``` proxychains firefox check.torproject.org ```
