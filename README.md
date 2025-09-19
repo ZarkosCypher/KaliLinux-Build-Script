@@ -151,8 +151,12 @@ mousepad /etc/proxychains4.conf
 
 
 -Wireless Pentest
-- ``` sudo apt install hcxdumptool ```
-- ``` sudo apt install hcxtools ```
+```bash 
+sudo apt install hcxdumptool
+```
+```bash 
+sudo apt install hcxtools
+```
 
 ---
 
