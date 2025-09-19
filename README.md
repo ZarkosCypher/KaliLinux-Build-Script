@@ -137,7 +137,18 @@ mousepad /etc/proxychains4.conf
 
 
 
+``` git clone https://github.com/SecureAuthCorp/impacket.git ```
+``` cd impacket ```
+``` pip3 install . ```
+OR:
+``` sudo python3 setup.py install ```
+In case you are missing some modules:
+``` pip3 install -r requirements.txt ```
 
+Note: In case you don't have pip3 (pip for Python3) installed, or Python3, install it with the following commands:
+``` sudo apt install python3 python3-pip ```
+
+all the scrips will be foind in the ~impacket/examples/ folder 
 
 
 
