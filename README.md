@@ -116,17 +116,27 @@ ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 -download cracmapexec and after its run a few times it will add some things to the cmedb database like passwords and other things
 
 
+---
 
 
 -Proxychains Setup
 -download tor 
-- ``` sudo apt install tor -y ```
-
-- ``` sudo systemctl enable tor ```
-- ``` sudo systemctl start tor ```
-- ``` sudo systemctl status tor ```
-
-- ``` sudo apt install tor torbrowser-launcher ```
+```bash 
+sudo apt install tor -y
+```
+```bash 
+sudo systemctl enable tor
+```
+```bash 
+sudo systemctl start tor
+```
+```bash
+sudo systemctl status tor 
+```
+Installs the tor browser as well
+```bash 
+sudo apt install tor torbrowser-launcher
+```
 
 -change proxychains defult of static to dynamic 
 ```bash 
