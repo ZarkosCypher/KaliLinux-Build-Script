@@ -2,12 +2,23 @@
 # Raw is the best way to read this for now!
 
 -New Kali Install RUN:
-- ``` sudo apt update ```
+```bash 
+sudo apt update
+```
+
 *if kali is really out of date run: ``` sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg ```
-- ``` sudo apt upgrade ```
-- ``` sudo apt full-upgrade ```
-- ``` sudo apt autoremove ```
-- ``` sudo apt clean ```
+```bash
+sudo apt upgrade 
+```
+```bash 
+sudo apt full-upgrade
+```
+```bash 
+sudo apt autoremove
+```
+```bash 
+sudo apt clean
+```
 
 -Change your defult password:
 - ``` passwd ```
