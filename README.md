@@ -119,17 +119,20 @@ ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 ---
 
 
--Proxychains Setup
--download tor 
+# Proxychains Through TOR Setup
+Download TOR  
 ```bash 
 sudo apt install tor -y
 ```
+Start the TOR service automatically when the machine boots up 
 ```bash 
 sudo systemctl enable tor
 ```
+Manualy starts TOR service 
 ```bash 
 sudo systemctl start tor
 ```
+Shows the startus of of the TOR sevice 
 ```bash
 sudo systemctl status tor 
 ```
