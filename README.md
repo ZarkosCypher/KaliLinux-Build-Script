@@ -53,15 +53,27 @@ extract rockyou.txt.gz file in /usr/share/wordlists to the same directory and ke
 Go to github page and go to the releases, choose the latest vertion, download trurbo-intruder-all.jar, go in to burpsuite go to extentions and installed then under Burp Extentions hit add, under extention details lave the exteions type as java, under standard output as show in UI, under standard error as show in UI, back under exteion details select the file for extention file .jar as the turbointruder java file you just installed, hit next then close after it loads, to use turbo intruder right click on the proxied request and under extentions turbo intruder should show up, hit send to turbo intruder. 
 if trying to use on password and username replace them with %s and %s for the username and password in the raw request, then choose the examples/muktipleParameters.py and change the first word and second word directory with what file you want to use for the bruitforce. then when ready hit attack at the bottom!
 
+
+---
+
+
 -instal OWASP ZAP
 ```bash 
 sudo apt install zaproxy
 ```
 
+
+---
+
+
 -install gobuster (was removed from defult kali linux)
 ```bash 
 sudo apt install gobuster
 ```
+
+
+---
+
 
 -Add foxy proxy settings
 - title: BurpSuit
@@ -69,7 +81,11 @@ sudo apt install gobuster
 - port: 8080
 - type: HTTP
 
--OPTIONAL:
+
+---
+
+
+-If In A Virtual Machine:
 -Add a snapshot of the state things are and run a separate fork with pimp my Kali
 
 Download pimp my kali:
@@ -98,20 +114,44 @@ Download pimp my kali:
 
 -after doing an upgrade on pimp my kali using option 9 and also do "fix" using option 0 
 
+
+---
+
+
 -install asset finder by running 
 - ``` go install GitHub.com/tomnomnom/assetfinder@latest ```
+
+
+---
+
 
 -install amass 
 - ``` go install -v GitHub.com/owasp-amass/amass/v4/...@master ```
 
+
+---
+
+
 -install httprobe 
 - ``` go install GitHub.tomnomnom/httprobe@latest ```
+
+
+---
+
 
 -install GoWitness 
 ran ``` ./pimpmykali.sh ``` and did option ``` W ```
 
+
+---
+
+
 -download bloodhound and nro4j with username neo4j and password neo4j1
 -install PlumHound 
+
+
+---
+
 
 -download cracmapexec and after its run a few times it will add some things to the cmedb database like passwords and other things
 
