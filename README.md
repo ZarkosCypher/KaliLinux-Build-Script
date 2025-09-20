@@ -193,7 +193,7 @@ pip3 install -r requirements.txt
 
 sudo apt install python3 python3-pip
 ```
-all the scrips will be found in the ~impacket/examples/ folder 
+all the scrips will be found in the ```~/impacket/examples/``` folder 
 
 
 
