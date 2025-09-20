@@ -47,6 +47,14 @@ extract rockyou.txt.gz file in /usr/share/wordlists to the same directory and ke
 - Cookie-Editor         by cgagnier
 - Ublock Origin 
 
+
+-Add foxy proxy settings
+- title: BurpSuit
+- hostname: 127.0.0.1
+- port: 8080
+- type: HTTP
+
+
 ### Turn burpsuit dark mode:
 - Go to burpsuit setting and search dark, then turn on dark mode and save
 - Add turbo intruder to burpsuit - https://github.com/PortSwigger/turbo-intruder
@@ -70,16 +78,6 @@ sudo apt install zaproxy
 ```bash 
 sudo apt install gobuster
 ```
-
-
----
-
-
--Add foxy proxy settings
-- title: BurpSuit
-- hostname: 127.0.0.1
-- port: 8080
-- type: HTTP
 
 
 ---
