@@ -40,16 +40,16 @@ extract rockyou.txt.gz file in /usr/share/wordlists to the same directory and ke
 - ``` sudo apt install keepassxc ```
 - ``` sudo apt install fcrackzip ```
 
--Download Firefox Extensions
-wapalizer
-foxyproxy
-Firefox Multi-Account Containers
-Cookie-Editor         by cgagnier
-Ublock Origin 
+## Download Firefox Extensions
+- wapalizer
+- foxyproxy
+- Firefox Multi-Account Containers
+- Cookie-Editor         by cgagnier
+- Ublock Origin 
 
--Turn burpsuit dark mode:
+- Turn burpsuit dark mode:
 Go to burpsuit setting and search dark then turn on dark mode and save
--Add turbo intruder to burpsuit - https://github.com/PortSwigger/turbo-intruder
+- Add turbo intruder to burpsuit - https://github.com/PortSwigger/turbo-intruder
 go to github page and go to the releases, choose the latest vertion, download trurbo-intruder-all.jar, go in to burpsuite go to extentions and installed then under Burp Extentions hit add, under extention details lave the exteions type as java, under standard output as show in UI, under standard error as show in UI, back under exteion details select the file for extention file .jar as the turbointruder java file you just installed, hit next then close after it loads, to use turbo intruder right click on the proxied request and under extentions turbo intruder should show up, hit send to turbo intruder. 
 if trying to use on password and username replace them with %s and %s for the username and password in the raw request, then choose the examples/muktipleParameters.py and change the first word and second word directory with what file you want to use for the bruitforce. then when ready hit attack at the bottom!
 
@@ -64,10 +64,10 @@ sudo apt install gobuster
 ```
 
 -Add foxy proxy settings
-title: BurpSuit
-hostname: 127.0.0.1
-port: 8080
-type: HTTP
+- title: BurpSuit
+- hostname: 127.0.0.1
+- port: 8080
+- type: HTTP
 
 -OPTIONAL:
 -Add a snapshot of the state things are and run a separate fork with pimp my Kali
