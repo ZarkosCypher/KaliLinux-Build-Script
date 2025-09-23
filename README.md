@@ -85,7 +85,7 @@ sudo apt install gobuster
 
 -install rustscan a quick way to scan tcp ports
 ```bash 
-sudo apt install rustscan
+rustscan
 ```
 
 
