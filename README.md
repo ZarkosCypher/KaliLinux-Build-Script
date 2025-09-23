@@ -83,6 +83,15 @@ sudo apt install gobuster
 ---
 
 
+-install rustscan a quick way to scan tcp ports
+```bash 
+sudo apt install rustscan
+```
+
+
+---
+
+
 -If In A Virtual Machine:
 -Add a snapshot of the state things are and run a separate fork with pimp my Kali
 
