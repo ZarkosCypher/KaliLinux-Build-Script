@@ -92,6 +92,15 @@ sudo apt install rustscan
 ---
 
 
+-masscan a way to scan manny ip addresses at the same time 
+```bash 
+masscan
+```
+
+
+---
+
+
 -If In A Virtual Machine:
 -Add a snapshot of the state things are and run a separate fork with pimp my Kali
 
