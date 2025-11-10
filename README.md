@@ -41,11 +41,12 @@ extract rockyou.txt.gz file in /usr/share/wordlists to the same directory and ke
 - ``` sudo apt install fcrackzip ```
 
 ## Download Firefox Extensions
-- wapalizer
-- foxyproxy
-- Firefox Multi-Account Containers
-- Cookie-Editor         by cgagnier
-- Ublock Origin 
+- wapalizer - https://addons.mozilla.org/en-US/firefox/addon/wappalyzer 
+- foxyproxy - https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard 
+- Firefox Multi-Account Containers - 
+- Cookie-Editor         by cgagnier - 
+- Ublock Origin - 
+- User-Agent Switcher and Manager - https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher 
 
 
 -Add foxy proxy settings
